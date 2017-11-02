@@ -5,7 +5,7 @@ var Car = require('../Car')
 
 describe('car class', function () {
   it('new car', function () {
-    var mondeo = new Car(0)
+    var mondeo = new Car()
 
     expect(mondeo.fuel).to.equal(0)
   })
